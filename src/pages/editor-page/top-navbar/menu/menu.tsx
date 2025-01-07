@@ -271,6 +271,9 @@ export const Menu: React.FC<MenuProps> = () => {
                             </MenubarItem>
                         </MenubarSubContent>
                     </MenubarSub>
+                    <MenubarItem onClick={openImportDiagramDialog}>
+                        {t('menu.share.import_diagram')}
+                    </MenubarItem>
                     <MenubarSeparator />
                     <MenubarSub>
                         <MenubarSubTrigger>
